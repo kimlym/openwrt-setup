@@ -37,6 +37,9 @@ Use OpenWRT as the main router and route all data to downstream wifi access poin
 2. Flash [Restore.zip](./imgs/Restore-SDCard-4G.img.zip) first
 3. Then flash your upgrade img or reinstall img
 
+## Check speed
+`ethtool eth1` and verify the `speed` is 100Mbps or 1000Mbps
+
 ## Reference
 1. [在树莓派中运行 OpenWRT｜主路由模式 #1](https://github.com/QuentinHsu/Document-Page/issues/1)
 2. [树莓派4B刷OpenWrt做路由器的经验+踩坑](https://zhuanlan.zhihu.com/p/451788328)
